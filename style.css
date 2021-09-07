@@ -12,3 +12,22 @@
     --Transparent-white: hsla(0, 0%, 100%, 0.75);
     --Very-light-gray: hsl(0, 0%, 95%);
 }
+
+.main_container {
+    display: flex;
+    margin: 100px;
+    height: 300px;
+    
+}
+
+.sedan_container {
+    background-color: var(--Bright-orange);
+}
+
+.suv_container {
+    background-color: var(--Dark-cyan);
+}
+
+.luxury_container {
+    background-color: var(--Very-dark-cyan)
+}
