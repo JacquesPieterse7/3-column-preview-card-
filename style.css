@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-size: 15px;
+}
+
 /* Variables */
 :root {
     --Bright-orange: hsl(31, 77%, 52%);
@@ -13,21 +17,45 @@
     --Very-light-gray: hsl(0, 0%, 95%);
 }
 
+
+
 .main_container {
     display: flex;
     margin: 100px;
-    height: 300px;
+    height: 400px;
+    
     
 }
 
 .sedan_container {
     background-color: var(--Bright-orange);
+    padding: 20px;
+
+}
+
+.icon {
+    margin: 20px;
+
 }
 
 .suv_container {
     background-color: var(--Dark-cyan);
+    padding: 20px;
 }
 
 .luxury_container {
-    background-color: var(--Very-dark-cyan)
+    background-color: var(--Very-dark-cyan);
+    padding: 20px;
+}
+
+.heading {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Very-light-gray);
+    margin: 20px;
+}
+
+p {
+    font-family: 'Big Shoulder Display', sans-serif;
+    color: var(--Transparent-white);
+    margin: 20px;
 }
